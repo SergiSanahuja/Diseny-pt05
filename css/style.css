@@ -1,0 +1,169 @@
+/* Color de fondo  */
+body {
+  background: #152733;
+  display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+  
+  .footer {
+    margin-top: auto;
+  }
+.home{
+    background-color: #DDDDDD;
+    border-radius: 5px;
+}
+
+
+
+.titol{
+    text-align: center;
+    font-family: 'Jura';
+    font-size: 30px;
+    color: #ffffff;
+}
+
+
+.container-image {
+    margin-top: 50px;
+    margin-bottom: 30px;
+     
+    background-color: #DDDDDD;
+}
+
+.llista-img{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.inici{
+    font-size:80px;
+    color:#ffffff;
+    font-family: 'Jura';
+}
+
+
+
+.img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.navbar{
+    background-color: #2f3336;
+    margin-top: -20px;
+    
+}
+
+@media (max-width: 565px) {
+    .img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+@media screen and (max-width: 800px){
+    .img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .titol{
+        font-size: 20px;
+        
+    }
+
+    .inici{
+        font-size: 40px;
+    }
+
+    .container-image{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .llista-img{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+ 
+}
+@media (max-width: 574px) {
+    .img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .home{
+        height: 50px;
+        width: 50px;
+    }
+    .imgCasa{
+        transform: translate(-15px,-5px);
+    }
+}
+
+@media (min-width:990px) {
+    .login-button {
+        background-color: #008CBA; /* Blue background */
+        border: none; /* No border */
+        color: white; /* White text */
+        padding: 12px 24px; /* Some padding */
+        text-align: center; /* Centered text */
+        text-decoration: none; /* No underline */
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer; /* Mouse pointer on hover */
+        transition-duration: 0.4s; /* Transition effect */
+        border-radius: 4px; /* Rounded corners */
+        }
+        
+        .login-button:hover {
+        background-color: #45a049; /* Green background on hover */
+        }
+        .inici {
+            letter-spacing: 40px; /* Adjust as needed */
+          }
+}
+
+.nav-item:hover{
+    background-color: #007bff;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+.footer{
+    text-align: center;
+}
+
+.insertarImatge{
+    border-radius: 5px;
+}
+
+.btn-insertar{
+    background-color: #007bff;
+    color: #ffffff
+}
+
+.btn-eliminar{
+    background-color: rgb(224, 37, 37);
+    color: #ffffff;
+}
+
+.btn-update{
+    background-color: rgb(206, 206, 61);
+    color: #ffffff;
+}
